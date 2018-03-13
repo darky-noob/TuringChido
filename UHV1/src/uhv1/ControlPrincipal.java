@@ -26,7 +26,7 @@ public class ControlPrincipal {
     }
     
     public void inicia(){
-        System.out.println("La aplicacion ha iniciado...");
+        System.out.println("hola");
         VentanaPrincipal ventanaP = new VentanaPrincipal(this);
         ventanaP.setVisible(true);
         
