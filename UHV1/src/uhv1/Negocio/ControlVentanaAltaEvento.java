@@ -17,4 +17,7 @@ public class ControlVentanaAltaEvento {
         VAE.setVisible(true);
         
     }
+    public void datos_de_evento(String nombreH, String nombre){
+        
+    }
 }
