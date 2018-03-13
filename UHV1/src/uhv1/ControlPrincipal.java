@@ -26,7 +26,9 @@ public class ControlPrincipal {
     }
     
     public void inicia(){
-        System.out.println("cosita fea, te amo");
+        System.out.println("Ana, te amo mucho mi amor, gracias por seguir con migo a psear de todas mis tonterias"
+                + "enjos y cosas malas que te he llegado hacer, enserio que eres el amor de mi vida"
+                + "y no es juego lo que te estoy diciendo, enserio que te amo mucho mi amor :D");
         
         VentanaPrincipal ventanaP = new VentanaPrincipal(this);
         ventanaP.setVisible(true);
