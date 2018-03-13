@@ -13,7 +13,12 @@ import uhv1.Vistas.VentanaEventos;
  */
 public class ControlVentanaEventos {
     public void inicia(){
-        VentanaEventos VE = new VentanaEventos();
+        VentanaEventos VE = new VentanaEventos(this);
         VE.setVisible(true);
+    }
+    
+    public void alta_pulsado(){
+        ControlVentanaAltaEvento CVAE = new ControlVentanaAltaEvento();
+        CVAE.inicia();
     }
 }
