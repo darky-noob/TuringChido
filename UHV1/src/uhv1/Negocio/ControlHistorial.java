@@ -29,6 +29,10 @@ public class ControlHistorial {
        this.daoPagos = daoPagos;
    }  
    
+   public void imprime(){
+       System.out.println("holii");
+   }
+   
    public void consultaHistorial(Responsable hab){             
        boolean bandera;
        daoPagos = new DAOPagos();
